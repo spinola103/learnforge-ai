@@ -1,0 +1,60 @@
+{
+  "topic": "algebra",
+  "concepts": ["variables", "linear_equations", "distributive_property", "factoring", "percentages"],
+  "prerequisite_chain": {
+    "linear_equations": ["variables"],
+    "factoring": ["distributive_property"],
+    "percentages": ["variables"]
+  },
+  "problems": [
+    {
+      "id": "alg_001",
+      "concept": "linear_equations",
+      "prompt": "Solve for x: 2x + 6 = 14",
+      "correct_answer": "4",
+      "difficulty": 1
+    },
+    {
+      "id": "alg_002",
+      "concept": "linear_equations",
+      "prompt": "Solve for x: 3x - 9 = 12",
+      "correct_answer": "7",
+      "difficulty": 2
+    },
+    {
+      "id": "alg_003",
+      "concept": "distributive_property",
+      "prompt": "Expand: 3(x + 4)",
+      "correct_answer": "3x + 12",
+      "difficulty": 1
+    },
+    {
+      "id": "alg_004",
+      "concept": "distributive_property",
+      "prompt": "Expand: 5(2x - 3)",
+      "correct_answer": "10x - 15",
+      "difficulty": 2
+    },
+    {
+      "id": "alg_005",
+      "concept": "factoring",
+      "prompt": "Simplify: (x^2 - 4) / (x - 2)",
+      "correct_answer": "x + 2",
+      "difficulty": 2
+    },
+    {
+      "id": "alg_006",
+      "concept": "percentages",
+      "prompt": "What is 15% of 200?",
+      "correct_answer": "30",
+      "difficulty": 1
+    },
+    {
+      "id": "alg_007",
+      "concept": "percentages",
+      "prompt": "A train travels at 60km/h for 2.5 hours. How far does it travel?",
+      "correct_answer": "150",
+      "difficulty": 2
+    }
+  ]
+}
